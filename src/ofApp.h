@@ -19,4 +19,7 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+    float circleX, circleY; //position
+    float speedX, speedY; //speed
+    int background; //background color (0-255)
 };
